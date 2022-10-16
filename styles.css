@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top-container {
+    flex: 1;
+    background-color: #1F2937;
+    padding: 0 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.hero-text{
+    flex:1 1 50%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.img-placeholder{
+    flex: 1 1 50%;
+    align-self: stretch;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0;
+}
+
+button{
+    background-color:#3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.hero-text button{
+    margin-right: auto;
+    border: 0;
+}
+
+.sign-icon button{
+    border:2px solid #e5e7eb;
+}
+
+.info-container{
+    padding: 0 430px 80px 430px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#info-header{
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: center;
+}
+
+.squares-container{
+    display:flex;
+    justify-content: center;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.rect {
+    width: 150px;
+    height: 150px;
+    
+    border:solid 3px #3882f6;
+    border-radius: 10px;
+}
+.square p{
+    padding: 0;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 80px 500px;
+}
+#quote{
+    font-size:36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937;
+    margin: 0;
+    padding: 0;
+}
+#author{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right:40px;
+}
+
+.sign-container{
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+}
+.sign-icon{
+    background-color:#3882f6;
+    padding: 40px 120px;
+    border-radius: 5px;
+    color:#e5e7eb;
+    margin: 100px 0;
+    display:flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+}
+#sign-text-bold{
+    font-weight: bold;
+}
+
+
+
+.footer-container{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
